@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BF3B3B"
+    tools:context="com.example.firebaseintro.LoginActivity">
+
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_blur_circular_black_24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/image"
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:textColorHint="#fff"
+        android:id="@+id/textInput1"
+        android:backgroundTint="#fff"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email Address"
+            android:inputType="textEmailAddress"
+            android:id="@+id/loginEmail"
+            android:textColorHint="#fff"
+            android:backgroundTint="#fff"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:textColorHint="#fff"
+        android:id="@+id/textInput2"
+        android:backgroundTint="#fff"
+        android:layout_below="@+id/textInput1"
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:id="@+id/loginPass"
+            android:textColorHint="#fff"
+            android:backgroundTint="#fff"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:id="@+id/btnLogin"
+        android:layout_below="@+id/textInput2"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="26dp"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:padding="20dp"
+        android:text="@string/forgotpass"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/forgotPass"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:onClick="forgotPass"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forgotPass"
+        android:padding="20dp"
+        android:text="@string/donthave"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/label"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:id="@+id/btnCreateAccount"
+        android:layout_below="@+id/label"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="26dp"
+        android:text="@string/createacc"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:onClick="createAccount"
+        />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btnCreateAccount"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        />
+
+
+</RelativeLayout>

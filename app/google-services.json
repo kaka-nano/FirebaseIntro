@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "207856134917",
+    "firebase_url": "https://fir-intro-d1474.firebaseio.com",
+    "project_id": "fir-intro-d1474",
+    "storage_bucket": "fir-intro-d1474.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207856134917:android:897800f8332d1ae9e8656c",
+        "android_client_info": {
+          "package_name": "com.example.firebaseintro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207856134917-bm1oh950te1irm2gh02vfiuft6rpf4vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKDovvcjGnrGlwSOz28gI1AdsuvFjDhtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207856134917-bm1oh950te1irm2gh02vfiuft6rpf4vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

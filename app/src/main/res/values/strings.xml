@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestFirebase</string>
+    <string name="login">Login</string>
+    <string name="createacc">Create Account</string>
+    <string name="donthave">Don\'t have an account, Create Account here</string>
+    <string name="forgotpass">Forgot Password , Click Here to reset</string>
+    <string name="rem">Remembered my Password</string>
+    <string name="loginsc">Login , Already have an account</string>
+</resources>
